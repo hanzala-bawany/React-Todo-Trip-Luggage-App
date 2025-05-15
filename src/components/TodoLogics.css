@@ -1,0 +1,131 @@
+#todoLogicsContainer {
+    width: 100%;
+    background-color: black;
+    /* background-color: beige; */
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#todoLogics {
+    border: 1px solid;
+    height: 80%;
+    width: 75%;
+    background-image: url("../assets/img 6.webp");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    overflow: auto;
+
+}
+
+#sortAndClrear {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+#sortList {
+    border-radius: 10px;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.4s;
+}
+
+#sortList:hover{
+    transform: scale(110%);
+    cursor: pointer;
+ 
+}
+
+#clearList {
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.4s;
+    box-shadow: inset 0 0 15px 0px black;
+
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    #sortAndClrear {
+        column-gap: 25px;
+    }
+    #sortList {
+        padding: 6px 24px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+        
+    #clearList {
+        padding: 6px 12px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #sortAndClrear {
+        column-gap: 20px;
+    }
+    #sortList {
+        padding: 5px 18px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+        
+    #clearList {
+        padding: 5px 10px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+
+@media only screen and (max-width: 540px) {
+    #todoLogicsContainer {
+        height: 94vh;
+    }
+    #todoLogics {
+        height: 76%;
+    }
+   
+    
+    #sortAndClrear {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 18px;
+    }
+    #sortList {
+        padding: 5px 12px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+        
+    #clearList {
+        padding: 5px 8px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+
+
+#clearList:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}

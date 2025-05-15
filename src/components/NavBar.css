@@ -1,0 +1,84 @@
+#mainNav {
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.navImgContainer {
+    width: 90px;
+    height: 70px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.haedings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Parkinsans", sans-serif;
+}
+
+.haedings h1 {
+    font-size: 50px;
+}
+
+.haedings h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.suitCaseImg {
+    width: 90px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .navImgContainer {
+        width: 70px;
+        height: 55px;
+    }
+
+    .haedings h1 {
+        font-size: 40px;
+    }
+
+    .haedings h2 {
+        font-size: 20px;
+
+    }
+
+    .suitCaseImg {
+        width: 70px;
+    }
+
+}
+
+
+@media only screen and (max-width: 540px) {
+    .navImgContainer {
+        width: 50px;
+        height: 35px;
+    }
+
+    .haedings h1 {
+        font-size: 30px;
+    }
+
+    .haedings h2 {
+        font-size: 20px;
+
+    }
+
+    .suitCaseImg {
+        width:50px;
+    }
+}
+

@@ -1,0 +1,43 @@
+
+.todo {
+    border: 2px solid gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    row-gap: 20px;
+    padding: 15px 25px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns img {
+    width: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btns img:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.btns input {
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.todoDisplay {
+    font-size: 20px;
+    text-transform: capitalize;
+}
