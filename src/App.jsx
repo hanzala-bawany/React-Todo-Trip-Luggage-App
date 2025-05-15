@@ -1,4 +1,4 @@
-import { NavBar } from './components/navBar'
+import { NavBar } from './components/NavBar'
 import { InputLogics } from './components/InputLogics'
 import { TodoLogics } from './components/TodoLogics'
 import { Footer } from './components/Footer'
